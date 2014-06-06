@@ -1,0 +1,41 @@
+{
+    "description" : "Displays important flask metrics",
+    "icon" : "icon.png",
+    "command" : "node index.js",
+    "postExtract" : "npm install",
+    "ignore" : "node_modules",
+
+    "metrics" : [
+        "FLASK_BLOCKS",
+        "FLASK_BLOCKS_MEMORY",
+        "FLASK_BLOCKS_FILES",
+        "FLASK_BLOCKS_WRITTEN",
+        "FLASK_BLOCKS_TOSSED",
+        "FLASK_CONNECTIONS",
+        "FLASK_CURRENT_CONNECTIONS",
+        "FLASK_DISCONNECTIONS",
+        "FLASK_MEMORY",
+        "FLASK_MEMORY_ALLOCS",
+        "FLASK_MEMORY_CURRENT_ALLOCS",
+        "FLASK_MEMORY_HIGHWATER",
+        "FLASK_MEMORY_LARGEST",
+        "FLASK_REQUESTS",
+        "FLASK_QUEUE_BACKLOG"
+    ],
+
+    "paramSchema" : [
+        {
+            "title" : "Log Path",
+            "name" : "logPath",
+            "description" : "The Flask log location.",
+            "type" : "string",
+            "default" : "/home/ubuntu/projects/graphdat.cube/shared/log/flask.log"
+        },
+        {
+            "title" : "Source",
+            "name" : "source",
+            "description" : "The Source to display in the legend for the flask data.  It will default to the hostname of the server",
+            "type" : "string"
+        }
+    ]
+}

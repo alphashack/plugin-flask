@@ -1,0 +1,30 @@
+{
+	"name": "graphdat-flask-plugin",
+	"version": "0.0.1",
+	"private": false,
+	"description": "Flask plugin for Graphat",
+	"main": "index.js",
+	"devDependencies": {
+		"request": "2.36.x",
+		"underscore": "1.6.x"
+		},
+	"dependencies": {
+		"graphdat-plugin-tools" : "0.0.1",
+		"always-tail" : "0.1.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/graphdat/plugin-flask"
+	},
+	"keywords": [
+		"graphdat",
+		"plugin",
+		"flask"
+	],
+	"author": "Graphdat <support@graphdat.com>",
+	"license": "Apache v2",
+	"bugs": {
+		"url": "https://github.com/graphdat/plugin-flask/issues"
+	},
+	"engine": "node >= 0.8.1"
+}
