@@ -14,7 +14,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/graphdat/plugin-flask"
+		"url": "https://github.com/alphashack/plugin-flask"
 	},
 	"keywords": [
 		"graphdat",
@@ -24,7 +24,7 @@
 	"author": "Graphdat <support@graphdat.com>",
 	"license": "Apache v2",
 	"bugs": {
-		"url": "https://github.com/graphdat/plugin-flask/issues"
+		"url": "https://github.com/alphashack/plugin-flask/issues"
 	},
 	"engine": "node >= 0.8.1"
 }
