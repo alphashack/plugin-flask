@@ -102,7 +102,7 @@ function gotData(data)
         if (mapped.type === 'bytes')
             value = toBytes(value);
 
-        console.log('%s %s %s', key, value, _source);
+        console.log('%s %s %s', mapped.name, value, _source);
     });
 }
 
