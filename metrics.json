@@ -1,0 +1,122 @@
+{
+  "FLASK_BLOCKS": {
+    "defaultAggregate": "MAX",
+    "defaultResolutionMS": 1000,
+    "description": "The number of blocks cached",
+    "displayName": "Flask Blocks",
+    "displayNameShort": "flask-blocks",
+    "unit": "number"
+  },
+  "FLASK_BLOCKS_FILES": {
+    "defaultAggregate": "MAX",
+    "defaultResolutionMS": 1000,
+    "description": "the number of files",
+    "displayName": "Flask Block File Count",
+    "displayNameShort": "flask-files",
+    "unit": "number"
+  },
+  "FLASK_BLOCKS_MEMORY": {
+    "defaultAggregate": "MAX",
+    "defaultResolutionMS": 1000,
+    "description": "the amount of memory currently allocated",
+    "displayName": "Flask Blocks Memory",
+    "displayNameShort": "flask-memory",
+    "unit": "bytecount"
+  },
+  "FLASK_BLOCKS_TOSSED": {
+    "defaultAggregate": "SUM",
+    "defaultResolutionMS": 1000,
+    "description": "the number of blocks removed from the cache",
+    "displayName": "Flask Cache Removals",
+    "displayNameShort": "flask-cache-removals",
+    "unit": "number"
+  },
+  "FLASK_BLOCKS_WRITTEN": {
+    "defaultAggregate": "SUM",
+    "defaultResolutionMS": 1000,
+    "description": "the number of blocks written",
+    "displayName": "Flask Blocks Written",
+    "displayNameShort": "flask-writes",
+    "unit": "number"
+  },
+  "FLASK_CONNECTIONS": {
+    "defaultAggregate": "SUM",
+    "defaultResolutionMS": 1000,
+    "description": "the number of flask connects",
+    "displayName": "Flask Connections",
+    "displayNameShort": "flask-conn",
+    "unit": "number"
+  },
+  "FLASK_CURRENT_CONNECTIONS": {
+    "defaultAggregate": "MAX",
+    "defaultResolutionMS": 1000,
+    "description": "the number of flask current connects",
+    "displayName": "Flask Current Connections",
+    "displayNameShort": "flask-current-conn",
+    "unit": "number"
+  },
+  "FLASK_DISCONNECTIONS": {
+    "defaultAggregate": "MAX",
+    "defaultResolutionMS": 1000,
+    "description": "the number of flask disconnections",
+    "displayName": "Flask Disconnections",
+    "displayNameShort": "flask-disconnects",
+    "unit": "number"
+  },
+  "FLASK_MEMORY": {
+    "defaultAggregate": "MAX",
+    "defaultResolutionMS": 1000,
+    "description": "the amount of memory allocated to Flask",
+    "displayName": "Flask Memory",
+    "displayNameShort": "flask-memory",
+    "unit": "bytecount"
+  },
+  "FLASK_MEMORY_ALLOCS": {
+    "defaultAggregate": "MAX",
+    "defaultResolutionMS": 1000,
+    "description": "the number of memory allocations",
+    "displayName": "Flask Memory Allocations",
+    "displayNameShort": "flask-mem-allocs",
+    "unit": "number"
+  },
+  "FLASK_MEMORY_CURRENT_ALLOCS": {
+    "defaultAggregate": "MAX",
+    "defaultResolutionMS": 1000,
+    "description": "the number of outstanding memory allocations",
+    "displayName": "Flask Memory Current Allocations",
+    "displayNameShort": "flask-mem-curr-alloc",
+    "unit": "number"
+  },
+  "FLASK_MEMORY_HIGHWATER": {
+    "defaultAggregate": "MAX",
+    "defaultResolutionMS": 1000,
+    "description": "the Flask Memory Limit",
+    "displayName": "Flask High Water Mark",
+    "displayNameShort": "flask-memory-limit",
+    "unit": "bytecount"
+  },
+  "FLASK_MEMORY_LARGEST": {
+    "defaultAggregate": "MAX",
+    "defaultResolutionMS": 1000,
+    "description": "the largest memory allocation",
+    "displayName": "Flask Memory Largest Allocation",
+    "displayNameShort": "flask-large-alloc",
+    "unit": "bytecount"
+  },
+  "FLASK_QUEUE_BACKLOG": {
+    "defaultAggregate": "SUM",
+    "defaultResolutionMS": 1000,
+    "description": "the number of operations in the backlog",
+    "displayName": "Flask Queue Backlog",
+    "displayNameShort": "flask-queue-backlog",
+    "unit": "number"
+  },
+  "FLASK_REQUESTS": {
+    "defaultAggregate": "SUM",
+    "defaultResolutionMS": 1000,
+    "description": "the number of server requests",
+    "displayName": "Flask Requests",
+    "displayNameShort": "flask-requests",
+    "unit": "number"
+  }
+}
